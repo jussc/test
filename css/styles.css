@@ -30,8 +30,22 @@ h2 {
   overflow: auto;
 }
 
+.logo {
+  /*float: left;*/
+  display: inline-block;
+}
+
+.logo h2 {
+  font-weight: 1000;
+  letter-spacing: -2px;
+  margin: 0;
+  margin-left: 1em;
+  padding: 0;
+}
+
 .links {
-  float: right;
+  /*float: right;*/
+    display: inline-block;
 }
 
 .links ul li {
@@ -131,14 +145,14 @@ a:visited {
 #contact .content {
   overflow: auto;
   color: #FFF;
-  margin: 1% 10%;
+  /*margin: 1% 10%;*/
 }
 
 #contact .content .left_block {
-  float: left;
-  display: inline-block;
-  width: 80%;
-  margin: 0.5% 10%;
+  /*float: left;*/
+  /*display: inline-block;*/
+  width: 100%;
+  /*margin: 0.5% 10%;*/
   text-align: center;
   font-size: 13px;
   font-style: italic;
@@ -146,6 +160,7 @@ a:visited {
 
 #contact .content .left_block ul {
   list-style-type: none;
+  padding: 0;
 }
 
 #contact .content .left_block ul li {
