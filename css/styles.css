@@ -13,7 +13,7 @@ body {
   letter-spacing: 0.03em;
   margin: 0 auto;
   -webkit-font-smoothing: antialiased;
-  max-width: 800px;
+  /*max-width: 800px;*/
 }
 
 h2 {
@@ -38,7 +38,13 @@ h2 {
   display: inline-block;
   text-transform: uppercase;
   padding: 0 2em 0 0;
+  font-size: 14px;
 }
+
+/*.links ul li + li:before {
+  content: "/";
+  font-size: 0.75em;
+}*/
 
 a:link {
   text-decoration: none;
@@ -46,8 +52,8 @@ a:link {
 }
 
 a:hover {
-  border-bottom: 3px solid #000;
-  padding-bottom: 3px;
+  border-bottom: 2px solid #000;
+  padding-bottom: 2px;
 }
 
 a:visited {
