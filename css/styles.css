@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  background-color: rgba(59,59,59,0.5);
+  background-color: #FFF;
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   color: #000;
@@ -120,6 +120,51 @@ a:visited {
   padding: 0;
 }
 
+/* ---- CONTACT PAGE ---- */
+
+.container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  float: left;
+  /*outline: 2px blue solid;*/
+
+}
+.connect {
+  width: 90%;
+  overflow: auto;
+  /*outline: 2px red solid;*/
+  margin: 5%;
+  padding: 0;
+}
+
+.left, .right {
+  float: left;
+  width: 50%;
+  margin: 0;
+  padding: 3%;
+  overflow: hidden;
+}
+
+.left .content, .right .content {
+  float: left;
+  margin: 5% 0;
+  /*outline: 2px green solid;*/
+}
+
+.left .content p, .right .content p {
+  margin: 0;
+  padding: 0;
+}
+
+.form-control {
+  width: 100%;
+}
+
+#name {
+  width: 49%;
+}
+
 /* ---- CONTACT DETAILS FOOTER ---- */
 
 #contact {
@@ -147,10 +192,11 @@ a:visited {
 #contact .contact_info {
   overflow: auto;
   color: #FFF;
-  /*margin: 1% 10%;*/
+  margin-top: 1%;
+  margin-bottom: 3%;
 }
 
-#contact .details {
+#contact .content {
   /*float: left;*/
   /*display: inline-block;*/
   width: 100%;
@@ -160,12 +206,12 @@ a:visited {
   font-style: italic;
 }
 
-#contact .details ul {
+#contact .content ul {
   list-style-type: none;
   padding: 0;
 }
 
-#contact .details ul li {
+#contact .content ul li {
   display: inline-block;
   padding: 0 1em;
 }
@@ -185,14 +231,6 @@ a:visited {
   font-family: 'Ovo', serif;
 }
 
-footer {
-  text-align: center;
-  color: #fff;
-  margin: 0 auto;
-  padding: 2% 1%;
-  width: 100%;
-  background-color: #3B3B3B;
-}
 
 /* ---- MEDIA QUERIES ---- */
 
