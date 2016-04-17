@@ -25,7 +25,8 @@ h2 {
 /*  background-color: #396798;*/
   width: 100%;
   margin: 0 auto;
-  padding: 1em 1em 1em 0;
+  margin-left: 1.5%;
+  padding: 0.5em 1em 0.5em 0;
   color: #000;
   overflow: auto;
 }
@@ -33,6 +34,12 @@ h2 {
 .logo {
   /*float: left;*/
   display: inline-block;
+  margin: 1%;
+  padding: 0;
+}
+
+.logo img {
+  vertical-align: middle
 }
 
 .logo h2 {
@@ -231,6 +238,15 @@ a:visited {
   font-family: 'Ovo', serif;
 }
 
+/* ---- RATES ---- */
+
+#rates .profile_info {
+  line-height: 30px;
+}
+
+#rates .profile_info p {
+  text-indent: 2%;
+}
 
 /* ---- MEDIA QUERIES ---- */
 
